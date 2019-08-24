@@ -1,0 +1,17 @@
+.search-filter {
+    height: 42px;
+    width: 178px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+  }
+.shortcuts{
+    border-right: 1.5px solid #a6a6a6;
+}
+.btn-filter{
+  width: 57%;
+  height: 43px;
+  border: none;
+  background: white;
+  border-radius: 2px;
+  margin-top: 12px;
+}

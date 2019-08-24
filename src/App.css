@@ -1,0 +1,40 @@
+
+body{
+  background:#e6e6e6;
+}
+.menu-list{
+  display: inline-flex;
+  list-style: none;
+  background: white;
+  width: 100%;
+  padding: 0;
+}
+.menu-item{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.menu-item> a{
+  padding: 0px 36px
+}
+
+.menu-main{
+  list-style: none;
+}
+.menu-item:hover{
+  background: #193948;
+  color: #ffffff;
+  
+}
+.icon-menu{
+  display: block;
+}
+.icon-menu:hover{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+a:hover{
+  color: #ffffff;
+}
