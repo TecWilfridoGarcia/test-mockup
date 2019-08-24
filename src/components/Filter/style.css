@@ -8,10 +8,22 @@
     border-right: 1.5px solid #a6a6a6;
 }
 .btn-filter{
-  width: 57%;
+  width: 85%;
   height: 43px;
   border: none;
   background: white;
   border-radius: 2px;
   margin-top: 12px;
+} 
+.style-filter{
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+  width: 93%;
+}
+.title{
+color: #575757;
+text-align: center
+}
+.img-title{
+fill: #575757;
 }

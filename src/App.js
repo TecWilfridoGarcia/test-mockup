@@ -20,10 +20,10 @@ function App() {
       <BrowserRouter>
         <div className="container-fluid">
           <div className="row">
-          <div className="col-2">
+          <div className="col-3">
             <img src={logo} />
           </div>
-            <div className="col-10">
+            <div className="col-9">
             <nav className="">
               <NavLink to="/" className="navbar-brand" activeClassName="active" exact={true}></NavLink>
               <div className="menu-main" id="navbarsExampleDefault">
@@ -59,10 +59,10 @@ function App() {
             </div>
           </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-3">
             <Filter />
           </div>
-          <div className="col-10">
+          <div className="col-9">
              <main role="main">
               <Switch>
                 <Route path="/" component={Home} exact={true}></Route>
