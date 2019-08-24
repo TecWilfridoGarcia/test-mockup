@@ -16,7 +16,7 @@ import Filter from './components/Filter';
 
 function App() {
   return (
-    <div className="">
+    <div className="container-app">
       <BrowserRouter>
         <div className="container-fluid">
           <div className="row">

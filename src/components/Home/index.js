@@ -8,65 +8,67 @@ import check from '../../images/check.svg';
 const Home = () => (
   <Fragment>
     <div className="">
-      <div className="row ">
+      <div className="row">
         <div className="col-12 content">
           <div className="content-item">
             <div className="row justify-content-between">
-              <div className="col-6 wrapper-check-item"><img  className="img-check" /></div>
+              <div className="col-6 wrapper-check-item"></div>
               <div className="col-6 col-search">
                 <input type="text" placeholder="Search" className="search-item" />
               </div>
             </div>
           </div>
           <div className="row mt-3">
-            <div className="col-2 wrapper-check">
+            <div className="col-1 wrapper-check">
               <img className="img-check" src={check} />
             </div>
-            <div className="col-10">
-              <div className="container wrapper-item">
+            <div className="col-11">
+              <div className=" wrapper-item">
                 <div className="row">
-                  <div className="col-3 section-1">
+                  <div className="col-2 section-1">
                     <p className="text-section">
                       Monday
                       10th 2:28
                       PM
-                  </p>
+                    </p>
                   </div>
                   <div className="col-3 section-2">
-                  <div>
-                    <p className="text-section-2">
-                      Houston, TX, 33619
+                    <div>
+                      <p className="text-section-2">
+                        Houston, TX, 33619
                     </p>
-                  
-                  </div>
-                  <div>
-                    flecha
+                    </div>
+                    <div>
+                      flecha
                     </div>
                     <div>
                       <p className="text-section-2">
                         Atlanta, GA, 30123
                       </p>
-                   
                     </div>
                   </div>
-                  <div className="col-6 section-3">
-                    <div className="row  justify-content-between">
-                      <div className="col-4">
-                       <img  className="img-car" src={car}/>
-                  </div>
-                      <div className="col-3">
+                  <div className="col-7 section-3">
+                  <div className="row container">
+                  <div className="col-3 content-list">
+                    <img className="img-car" src={car} />
+                    </div>
+                    <div className="col-6 content-list">
+                      <p className="item-content">
                         $250.00
-                  </div>
-                      <div className="col-3">
-                        btn
-                  </div>
-                      <div className="col-2">
-                        <Modal />
-                  </div>
-                  <div>
+                      </p>
                     
-                  </div>
                     </div>
+                    <div className="col-2 content-list">
+                      <p className="item-content">
+                        btn
+                      </p>
+                    </div>
+                    <div className="col-1 content-list">
+                    <Modal />
+                    </div>
+                    <div>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -80,3 +82,5 @@ const Home = () => (
 );
 
 export default Home;
+
+
