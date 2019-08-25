@@ -1,8 +1,7 @@
 import React, { Fragment, useState } from 'react'
-import car from '../../images/car.svg';
+import truck from '../../images/truck.png';
 import check from '../../images/check.svg';
-import send from '../../images/send.svg';
-import arrow from '../../images/arrow-down.svg';
+import toparrow from '../../images/top-arrow.png';
 import './style.css';
 import Modal from '../Modal';
 
@@ -31,7 +30,7 @@ const ListRoutes = () => (
                     </div>
                     <div className="content-img">
                       <div className="content-img-send">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                        <img  src={toparrow}/>
                         </div>
                       <div className="content-img-arrow">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path fill="none" d="M0 0h24v24H0V0z"/></svg>
@@ -47,8 +46,7 @@ const ListRoutes = () => (
                   <div className="col-7 section-3">
                   <div className="row container">
                   <div className="col-3 content-list">
-                    <img className="img-car" src={car} />
-                    
+                    <img className="img-car" src={truck} />
                     </div>
                     <div className="col-6 content-list">
                       <p className="item-content">

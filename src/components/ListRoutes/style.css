@@ -11,7 +11,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 14px;
+    margin-top: 12px;
     text-align: center;
     height: 72px;
 }
@@ -44,7 +44,7 @@
     text-align: center;
     color: #929191;
     font-size: 16px;
-    margin-top: -6px;
+    margin-top: 0;
 }
 .content{
     bottom: 35px;
@@ -83,25 +83,24 @@
 .content-img{
     display: flex;
     width: 100%;
+    height: 11px;
 }
 .content-img-send{
     width: 50%;
     display: block;
     position: relative;
     text-align: initial;
-    top: -31px;
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-27deg);
-    bottom: -4px;
+    top: -15px;
+    left: -14px;
+    transform: rotate(0deg);
 }
-.content-img-send>svg{
+.content-img-send>img{
     fill: #929191;
+    width: 34px;
 }
 .content-img-arrow{
     width: 50%;
-    margin-top: -26px;
+    margin-top: -30px;
     display: block;
     margin-left: -8px;
 }

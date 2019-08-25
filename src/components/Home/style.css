@@ -1,13 +1,13 @@
 
 
 .col-search{
-    max-width: 26.5% !important;
+    max-width: 35.5% !important;
 }
 .col-search>svg{
     fill: #929191;
     position: absolute;
     top: 12px;
-    left: 77px;
+    left: 121px;
 }
 .search-item{
     height: 42px;
@@ -60,7 +60,7 @@
     font-size: 14px;
 }
 .content{
-    bottom: 35px;
+    bottom: 34px;
 }
 .img-car{
     width: 74px;
@@ -72,7 +72,7 @@
     margin-left: 5px !important;
 }
 .img-check{
-    width: 52px;
+    width: 48px;
 
 }
 .uno{

@@ -17,9 +17,9 @@
   margin-top: 12px;
 } 
 .style-filter{
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #a6a6a6;
   margin-bottom: 12px;
-  width: 93%;
+  width: 83%;
 }
 .style-status>svg{
   position: absolute;
@@ -32,6 +32,12 @@
 .title{
 color: #575757;
 text-align: center
+}
+.title>svg{
+  transform: rotate(179deg);
+  fill: gray;
+  display: inline;
+  margin-right: 15px;
 }
 .img-title{
 fill: #575757;
