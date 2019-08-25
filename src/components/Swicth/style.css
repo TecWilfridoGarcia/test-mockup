@@ -95,3 +95,6 @@ input[type="checkbox"].switch:checked + div > div {
 	-webkit-transform: translate3d(46px, 0, 0);
 	transform: translate3d(46px, 0, 0);
 }
+.icon>img{
+	width: 66px;
+}

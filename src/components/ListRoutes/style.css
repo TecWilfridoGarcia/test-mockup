@@ -16,16 +16,16 @@
     height: 72px;
 }
 .text-section{
-    padding-left: 33px;
-    padding-right: 33px;
-    display: block;
+    padding-left: 19px;
+    padding-right: 19px;
     text-align: center;
     color: #929191;
-    font-size: 14px;
+    font-size: 16px
 }
 .content-list{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .wrapper-check{
     border-radius: 46px;
@@ -43,7 +43,8 @@
     display: block;
     text-align: center;
     color: #929191;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: -6px;
 }
 .content{
     bottom: 35px;
@@ -66,4 +67,56 @@
     margin-right: auto;
     text-align: center;
     font-size: 34px;
+    margin-bottom: 0px;
+    color: #929191;
+}
+.btn-list{
+    border: none;
+    background: #ed5356;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    display: block;
+}
+.content-img{
+    display: flex;
+    width: 100%;
+}
+.content-img-send{
+    width: 50%;
+    display: block;
+    position: relative;
+    text-align: initial;
+    top: -31px;
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-27deg);
+    bottom: -4px;
+}
+.content-img-send>svg{
+    fill: #929191;
+}
+.content-img-arrow{
+    width: 50%;
+    margin-top: -26px;
+    display: block;
+    margin-left: -8px;
+}
+.content-img-arrow> svg {
+    margin: 0px 0 -7px -59px;
+    width: 63px;
+    height: 55px;
+    fill: #ecad68
+}
+.addItem>svg{
+    width: 91px;
+    height: 91px;
+    fill: orange;
+    position: fixed;
+    top: 72%;
+    right: 77px;
+    cursor: pointer;
 }

@@ -3,6 +3,7 @@
     width: 178px;
     border: 1px solid #d2d2d2;
     border-radius: 7px;
+    text-align: center;
   }
 .shortcuts{
     border-right: 1.5px solid #a6a6a6;
@@ -19,6 +20,14 @@
   border-bottom: 1px solid gray;
   margin-bottom: 12px;
   width: 93%;
+}
+.style-status>svg{
+  position: absolute;
+  top: 12px;
+  left: 62px;
+  width: 20px;
+  height: auto;
+  fill: gray
 }
 .title{
 color: #575757;
