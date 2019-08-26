@@ -72,8 +72,9 @@ a:hover{
   width: 100%;
 
 }
-.menu-item>.navlink>.menu-item-title>svg:hover{
-  fill: #ffffff;
+
+  .menu-item>.navlink:hover .menu-item-title > svg {
+    fill: #ffffff;
   }
   .logo>img{
     width: 154px;
