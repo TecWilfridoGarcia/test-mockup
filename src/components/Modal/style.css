@@ -1,11 +1,17 @@
 .icon-toggle{
     width: 26px;
 }
-.modal-content {  
-    width: 34%;
-    height: 17%;
+.modal-content {
+    width: 24%;
     left: 45pc;
+}
+.modal-content>dl, ol, ul {
+
+    padding: 0 0 0 8px;
 }
 .option-list{
     cursor: pointer;
+}
+.modal-body {
+    padding: 0 0 0 18px;
 }

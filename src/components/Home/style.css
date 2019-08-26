@@ -96,3 +96,10 @@ width: 100%;
     display: flex;
     justify-content: center;
 }
+.addItem>.plus{
+    border-radius: 66px;
+    position: fixed;
+    top: 70%;
+    left: 89%;
+    width: 5.4%;
+}
