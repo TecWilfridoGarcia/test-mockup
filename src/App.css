@@ -22,11 +22,12 @@ body{
   font-weight: 700;
 }
 .menu-item> a{
+  display: block;
   padding: 0;
   width: 100%;
-  margin-left: 71px;
-  margin-right: 71px;
+  height: auto;
   color: #193948;
+  height: 100%
 }
 .menu-item> a:active{
   background: #193948;
@@ -61,12 +62,17 @@ a:hover{
 }
 .container-app{
   padding: 35px;
-  background: #e6e6e6;
+  background: #e2e2e2;
 }
-.menu-item>.navlink>svg{
-fill: #193948;
+.menu-item>.navlink>.menu-item-title>svg{
+  fill: #193948;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
 }
-.menu-item>.navlink>svg:hover{
+.menu-item>.navlink>.menu-item-title>svg:hover{
   fill: #ffffff;
   }
   .logo>img{
