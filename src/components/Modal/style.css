@@ -1,17 +1,38 @@
 .icon-toggle{
     width: 26px;
 }
-.modal-content {
-    width: 24%;
-    left: 45pc;
+.primary>.background{
+    height: 48px;
+    position: fixed;
+    width: 48px;
+    background: white;
+    top: 81%;
+    left: 88.8%;
+    border-radius: 50px;
 }
-.modal-content>dl, ol, ul {
-
-    padding: 0 0 0 8px;
-}
-.option-list{
+.primary>.background>svg{
+    fill: #ee8c38;
+    border-radius: 66px;
+    position: relative;
+    top: -16%;
+    left: -17.2%;
+    width: 70px;
+    height: auto;
     cursor: pointer;
 }
-.modal-body {
-    padding: 0 0 0 18px;
+.form{
+    background: #e2e2e2 !important;
+}
+.btn-send{
+    background: #ee8c38;
+    color: white;
+}
+.form-control:focus {
+    border-color: #ee8c38 !important;
+    box-shadow: 0 0 0 0.2rem rgb(238, 139, 56) !important;
+}
+.title-modal>.title{
+    color: gray;
+    padding: 12px;
+    border-bottom: 3px solid #f57911;
 }

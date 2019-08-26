@@ -26,6 +26,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+}
+.content-list>svg{
+    fill: #929191;
 }
 .wrapper-check{
     border-radius: 46px;

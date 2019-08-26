@@ -25,7 +25,6 @@ const Filter = () => (
                </div>
              </div>
          </div>
-      <hr />
     </div>
   </Fragment>
 );

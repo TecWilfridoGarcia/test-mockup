@@ -2,9 +2,7 @@ import React, { Fragment } from 'react'
 import './style.css';
 import ListRoutes from '../ListRoutes';
 import check from '../../images/check.svg';
-import plus from '../../images/plus-orange.png';
-
-
+import Modal from '../Modal';
 
 const Home = () => (
   <Fragment>
@@ -30,7 +28,7 @@ const Home = () => (
         </div>
       </div>
       <div className="addItem">
-      <img className="plus" src={plus} />
+          <Modal />
       </div>
     </div>
   </Fragment>
